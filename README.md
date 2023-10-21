@@ -4,6 +4,11 @@
 
 ## 🙋 팀원
 
+| <img src="https://github.com/JinUng41/ios-contact-manager-ui/assets/91656206/fc55301c-5bce-41da-82c8-3b00d23596af" width = 300 height = 300> | <img src="https://avatars.githubusercontent.com/u/97822621?v=4" width=300 height=300> |
+|-------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
+| [JinUng41](https://github.com/JinUng41) | [Dongjun-developer](https://github.com/Dongjun-developer) |
+
+
 ## 📁 디렉토리 구조
 
 ```markdown
@@ -164,8 +169,8 @@ class ContactCell {
 | 이름 | 타입 | 구현내용 |
 | --- | --- | --- |
 | ContactCell | final Class | custom Cell을 구현해 주었고 contact 파라미터를 받아서 storyboard의 UILabel에 매칭해준다. |
-| ContactsViewController | final Class | ContactManager()을 구현하여 tablewView에 연락처를 보여주고 addButton을 클릭하면 NewContactViewController로 이동하여 연락처 추가 창으로 이동합니다. |
-| NewContactViewController | final Class |  |
+| ContactsViewController | final Class | tablewView에 연락처를 보여주고 addButton을 클릭하면 NewContactViewController로 이동하여 연락처 추가 창으로 이동합니다. |
+| NewContactViewController | final Class | 연락처를 새로 추가하거나 기존의 연락처를 수정하는 화면을 담당합니다. |
 | ContactsTableViewUpdateDelegate | protocol | AnyObject를 따르는 커스텀 델리게이트 패턴을 구현 |
 | AlertKind | enum | 프로그램 내에서 알림창을 띄울 수 있는 경우에 대해 정의 |
 | ContactManager | final Class | contact의 배열을 가지고 contact의 count, 연락처 추가, 연락처 수정, 연락처 삭제, 연락처 반환  연락처 index 반환, 연락처 이름 순 정렬 등의 기능을 구현 |
@@ -175,13 +180,22 @@ class ContactCell {
 
 ## 📱 동작화면
 
-### 연락처 추가 및 검색
+### 연락처 추가 및 취소
+
+<img src="https://github.com/JinUng41/ios-contact-manager-ui/blob/main/images/1.%20%EC%97%B0%EB%9D%BD%EC%B2%98%20%EC%B6%94%EA%B0%80%20%EB%B0%8F%20%EC%B7%A8%EC%86%8C.gif" width = 300 height = 700>
 
 ### 연락처 수정
 
+<img src="https://github.com/JinUng41/ios-contact-manager-ui/blob/main/images/3.%20%EC%97%B0%EB%9D%BD%EC%B2%98%20%EC%88%98%EC%A0%95.gif" width = 300 height = 700>
+
 ### 연락처 삭제
 
+<img src="https://github.com/JinUng41/ios-contact-manager-ui/blob/main/images/2.%20%EC%97%B0%EB%9D%BD%EC%B2%98%20%EC%82%AD%EC%A0%9C.gif" width = 300 height = 700>
+
 ### Dynamic Type 적용
+
+<img src="https://github.com/JinUng41/ios-contact-manager-ui/blob/main/images/4.%20Dynamic%20Type.png" width = 300 height = 700>
+
 
 # 🚀 Trouble Shooting
 
